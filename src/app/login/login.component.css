@@ -1,0 +1,12 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+.custom-toolbar{
+    background-color: #16A45B;
+color: white;
+margin: 0;
+padding: 0;
+}
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
