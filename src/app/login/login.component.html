@@ -1,11 +1,44 @@
+
+<body>
 <mat-toolbar class="custom-toolbar" >
-  <div align="center">
+
   <mat-toolbar-row>
-    <span>Inicio de sesión</span>
+    <span>Inicio de Sesión</span>
     <span class="example-spacer"></span>
   </mat-toolbar-row>  
-  </div>
 </mat-toolbar>
+
+
+
+<div class="row">
+<mat-grid-list cols="1" rowHeight="2:1" gutterSize="16" align="center">
+  <div class="login">
+    <form class="custom-Grid" method="post">
+      <h1>Inicio de Sesión</h1>
+      <input
+        type="email"
+        ngModel="email"
+        name="email"
+        placeholder="Email"
+        required="required"
+      />
+      <br><br>
+      <input
+        type="password"
+        ngModel="password"
+        name="password"
+        placeholder="Contraseña"
+        required="required"
+      />
+      <br><br>
+      <button mat-raised-button color="primary">Iniciar Sesión</button>
+      <br><br>
+    </form>
+  </div>
+</mat-grid-list>
+</div>
+</body>
+
 
 
 
